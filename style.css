@@ -1,0 +1,86 @@
+
+html{
+	margin: 0;
+}
+
+body{
+	background: url('ricepaper2.png');
+	color: rgb(48,31,0);
+	margin: 0;
+}
+
+h1{
+	margin-top: 0;
+	padding: 10px 10px 15px;
+	background: rgb(242,190,116);
+	background: rgba(242,190,116,.1);
+	box-shadow: 0px 1px 5px rgba(0,0,0,.1);
+}
+
+#h1Name {
+	font: bold 1.5em "Josefin Sans", serif;
+}
+
+#h1Subtitle {
+	font: .6em 'Trykker', serif;
+}
+
+#bio {
+	max-width: 1200px;
+	float: left;
+	background: url('Mike1.jpeg') no-repeat right;
+	width: 100%;
+	position: relative;
+	height: 670px;
+	/*margin-right: 12%;*/
+}
+
+#bioText {
+	margin-left: 12%;
+	width: 24em;
+	font: .9em/1.56em 'Trykker', serif;
+	padding: 15px;
+	background: rgba(207,207,207,.4);
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	box-shadow: 9px 7px 5px rgba(0,0,0,.1);
+}
+
+@media (max-width: 1100px){
+	#bioText{
+		background: rgba(207,207,207,.63);
+	}
+}
+
+@media (max-width: 1050px){
+	#bioText{
+		background: rgba(207,207,207,.75);
+	}
+}
+
+@media (max-width: 950px){
+	#bioText{
+		background: rgba(207,207,207,.8);
+	}
+}
+
+footer{
+	padding: 15px;
+	clear: both;
+	text-align: center;
+	font: .8em'Trykker', serif;
+}
+
+footer p {
+	margin: 5px;
+}
+
+a:link {
+	color: rgb(48,31,0);
+	text-decoration: none;
+	border-bottom: 1px dashed rgba(48,31,0,.3);
+}
+
+a:visited {
+	color: rgb(48,31,0);
+}
